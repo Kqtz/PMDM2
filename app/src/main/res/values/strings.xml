@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="Nombre">Nombre</string>
+    <string name="hint_nombre">Escribe aquí tu nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="hint_apellidos">Escribe aquí tus apellidos</string>
+    <string name="Edad">Edad</string>
+    <string name="hint_edad">Escribe aquí tu edad</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="tiene_hijos">¿Tienes hijos?</string>
+    <string name="generar_notificacion">Enviar</string>
+    <string name="resetear_formulario" translatable="false">Reset</string>
+    <string name="campo_requerido">Debes rellenar todos los campos</string>
+    <string name="espacioblanco">ㅤ</string>
+
+    <!-- Array para el Spinner del estado civil -->
+    <string-array name="estado_civil_array">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Viudo</item>
+        <item>Otro</item>
+    </string-array>
+
+</resources>

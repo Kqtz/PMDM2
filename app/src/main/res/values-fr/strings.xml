@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Données Personnelles</string>
+    <string name="Nombre">Nom</string>
+    <string name="hint_nombre">Entrez votre nom ici</string>
+    <string name="Apellidos">Prénom</string>
+    <string name="hint_apellidos">Entrez votre prénom ici</string>
+    <string name="Edad">Âge</string>
+    <string name="hint_edad">Entrez votre âge ici</string>
+    <string name="hombre">Homme</string>
+    <string name="mujer">Femme</string>
+    <string name="tiene_hijos">Avez-vous des enfants ?</string>
+    <string name="generar_notificacion">Envoyer</string>
+    <string name="resetear_formulario" translatable="false">Réinitialiser</string>
+    <string name="campo_requerido">Vous devez remplir tous les champs</string>
+    <string name="espacioblanco">ㅤ</string>
+
+    <!-- Tableau pour le Spinner de l'état civil -->
+    <string-array name="estado_civil_array">
+        <item>Célibataire</item>
+        <item>Marié</item>
+        <item>Divorcé</item>
+        <item>Veuf</item>
+        <item>Autre</item>
+    </string-array>
+
+</resources>

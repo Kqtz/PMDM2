@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nombre -->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Nombre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:hint="@string/hint_nombre"
+        android:inputType="textCapWords" />
+
+    <!-- Apellidos -->
+
+    <!-- Edad -->
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Apellidos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:hint="@string/hint_apellidos"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Edad"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:hint="@string/hint_edad"
+        android:inputType="number" />
+
+    <!-- Género -->
+    <RadioGroup
+        android:id="@+id/rgGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbHombre"
+            android:layout_width="100dp"
+            android:layout_height="91dp"
+            android:text="@string/hombre" />
+
+        <RadioButton
+            android:id="@+id/rbMujer"
+            android:layout_width="97dp"
+            android:layout_height="91dp"
+            android:text="@string/mujer" />
+
+        <Spinner
+            android:id="@+id/spEstadoCivil"
+            android:layout_width="178dp"
+            android:layout_height="67dp" />
+
+    </RadioGroup>
+
+    <!-- Estado civil -->
+
+    <!-- Tiene hijos -->
+
+    <!-- TextView para mostrar mensajes de error -->
+    <Switch
+        android:id="@+id/switchHijos"
+        android:layout_width="155dp"
+        android:layout_height="61dp"
+        android:text="@string/tiene_hijos" />
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:visibility="gone" />
+
+    <!-- Botón para generar la notificación -->
+
+    <!-- Botón para restablecer el formulario -->
+
+    <Button
+        android:id="@+id/btnNotificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundTint="#FFFFFF"
+        android:text="@string/generar_notificacion"
+        android:textColorLink="#12379E" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:background="@drawable/baseline_refresh_24"
+        android:text="@string/resetear_formulario" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/espacioblanco" />
+
+</LinearLayout>
